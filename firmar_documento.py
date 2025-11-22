@@ -33,7 +33,7 @@ with open("private_key.pem", "wb") as f:
 print("   Claves RSA (public_key.pem y private_key.pem) generadas.")
 
 # --- 2. Crear el archivo de texto a firmar ---
-document_content = b"Este es el documento que debe ser protegido contra cualquier alteracion. Version 1.0."
+document_content = b"Este es el documento que debe ser protegido contra cualquier alteracion. Version 2.0."
 with open("documento.txt", "wb") as f:
     f.write(document_content)
 print("\n2. Archivo 'documento.txt' creado con el contenido a firmar.")
