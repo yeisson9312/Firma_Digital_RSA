@@ -1,0 +1,25 @@
+# Ignorar entorno virtual
+venv/
+
+# Ignorar archivos compilados de Python
+__pycache__/
+
+# Ignorar la librería pycryptodome (si se instaló en el directorio raíz)
+.cryptodome-config
+
+# Ignorar datos sensibles que no son parte del código
+*.key
+*.enc
+
+# Ignorar archivos compilados y entornos comunes
+*.pyc
+.venv/
+env/
+.vscode/
+.idea/
+.pytest_cache/
+.mypy_cache/
+pip-wheel-metadata/
+*.egg-info/
+build/
+dist/
