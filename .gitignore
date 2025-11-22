@@ -23,3 +23,12 @@ pip-wheel-metadata/
 *.egg-info/
 build/
 dist/
+
+# Ignorar archivos de documento y firmas generadas
+documento_verificado.txt
+documento.txt
+documento.txt.sig
+
+# Ignorar claves generadas
+private_key.pem
+public_key.pem
