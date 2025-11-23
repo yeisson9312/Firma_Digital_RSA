@@ -48,12 +48,12 @@ try:
     with open(output_filename, "wb") as f:
         f.write(document_data)
         
-    print(f"\n✅ VERIFICACIÓN EXITOSA:")
-    print(f"   El documento es **AUTÉNTICO** y su **INTEGRIDAD** está garantizada.")
+    print(f"\n VERIFICACIÓN EXITOSA:")
+    print(f"El documento es **AUTÉNTICO** y su **INTEGRIDAD** está garantizada.")
     print(f"   → El contenido íntegro ha sido guardado en: {output_filename}")
     
 except Exception:
-    print("\n❌ FALLO DE VERIFICACIÓN:")
+    print("\n FALLO DE VERIFICACIÓN:")
     print("   La firma es inválida. El documento ha sido alterado o la firma no corresponde al autor.")
     
 print("\n--- PROCESO DE VERIFICACIÓN RSA COMPLETADO ---")
